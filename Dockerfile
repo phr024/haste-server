@@ -3,7 +3,7 @@ FROM node:14.8.0-stretch
 RUN mkdir -p /usr/src/app && \
     chown node:node /usr/src/app
 
-USER node:node 
+USER 1001 
 
 WORKDIR /usr/src/app
 
